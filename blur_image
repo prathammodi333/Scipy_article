@@ -1,0 +1,4 @@
+face = misc.face() 
+blurred_image = ndimage.gaussian_filter(face, sigma=2)
+plt.imshow(blurred_image) 
+plt.show()

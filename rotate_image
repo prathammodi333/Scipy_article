@@ -1,0 +1,5 @@
+from scipy import ndimage
+face = misc.face() 
+rotate_face = ndimage.rotate(face, 30) #rotating the image 30 degree
+plt.imshow(rotate_face) 
+plt.show()
